@@ -1,16 +1,9 @@
 
-/* Define estilos para o elemento body (corpo da página) */
-body {
-  /* Define a cor do texto como branco */
-  color: white;
-  /* Define o plano de fundo da página como preto */
-  background: black;  
-  /* Remove as margens padrão do navegador */
-  margin: 0px;
-
-  /* Define a fonte padrão como "Chakra Petch" e sans-serif como fallback */
-  font-family: "chakra petch", sans-serif;
-  
-  /* Adiciona uma margem inferior de 100px para evitar que conteúdo fique muito próximo do final da página */
-  margin-bottom: 100px;
+body { 
+  color: white;        /* define estilos para o elemento body (corpo da pagina) */
+  background: black;   /* Define o plano de fundo da página como preto */
+  margin: 0px;           /* Zera o espaço próximo a margem da página */
+  font-family: "chakra petch", sans-serif;  /* Alterar a fonte do Texto */
+  margin-bottom: 100px;      /* Adiciona uma margem inferior a página*/
 }
+ 
