@@ -1,60 +1,76 @@
-
-body { 
-  color: white;        /* define estilos para o elemento body (corpo da pagina) */
-  background: black;   /* Define o plano de fundo da página como preto */
-  margin: 10px;           /* Zera o espaço próximo a margem da página */
-  font-family: "chakra petch", sans-serif;  /* Alterar a fonte do Texto */
-  margin-bottom: 100px;      /* Adiciona uma margem inferior a página*/
+/* Define estilos para o elemento <body> do documento HTML */
+body {
+    /* Define a cor do texto como branco */
+    color: rgb(255, 255, 255);
+    
+    /* Define a cor de fundo da página como preto */
+    background: black;
+    
+    /* Remove todas as margens externas do body */
+    margin: 10px;
+    
+    /* Define a fonte do texto como "Chakra Petch" e sans-serif como fallback */
+    font-family: "Chakra Petch", sans-serif;
+    
+    /* Adiciona uma margem inferior de 100 pixels */
+    margin-bottom: 100px;
 }
-   .chamada {
-  background: rgb(184, 156, 213); /* Define a cor de fundo usando valores RGB */
-  padding-bottom: 80px;          /* Espaço interno (padding) de 80px na parte inferior */
-  padding-top: 80px;             /* Espaço interno (padding) de 80px na parte superior */
-  display: flex;                 /* Define um container flexível para organizar os elementos filhos em linha */
-  justify-content: center;       /* Centraliza os elementos filhos horizontalmente dentro do container flex */
+
+header {
+    border-bottom: solid 2px rgb(184, 156, 213);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(37, 62, 202)
 }
 
+.chamada {
+    /* Define a cor de fundo como um tom roxo claro */
+    background: rgb(184, 156, 213);
+    
+    /* Adiciona 80 pixels de espaço em cima e embaixo */
+    padding-bottom: 80px;
+    padding-top: 80px;
+    
+    /* Exibe os elementos de forma flexível e centraliza o conteúdo */
+    display: flex;
+    justify-content: center;
+}
 .chamada-texto {
-  margin-right: 5%;              /* Adiciona uma margem à direita de 5% da largura do elemento pai */
+    /* Adiciona um espaço de 5% à direita do texto */
+    margin-right: 5%;
 }
-
 h1 {
-  font-size: 40px;               /* Define o tamanho da fonte do título como 40 pixels */
+    /* Define o tamanho da fonte do título (h1) como 40 pixels */
+    font-size: 40px;
 }
 
 p {
-  font-size: 20px;               /* Define o tamanho da fonte do parágrafo como 20 pixels */
+    /* Define o tamanho da fonte do parágrafo (p) como 20 pixels */
+    font-size: 20px;
 }
 
-```css
-/* Container de vídeos da categoria: usa layout flexível e rolagem horizontal */
 .categoria-videos {
-  display: flex;         /* Organiza os elementos em linha (horizontalmente) */
-  overflow-x: auto;      /* Permite rolagem horizontal caso o conteúdo ultrapasse a largura */
-  gap: 10px;             /* Espaço de 10px entre os itens */
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
 
-/* Estilização geral da seção de categoria */
 .categoria {
-  padding-left: 20px;  /* Espaçamento interno à esquerda */
-  padding-right: 20px;  /* Espaçamento interno à direita */
-  margin-top: 50px;  /* Espaçamento acima da seção */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
 }
 
-/* Estilo padrão das imagens dentro da seção de vídeos */
 .categoria-videos img {
-  opacity: 0.5;   /* Imagens ficam semitransparentes por padrão */
-  height: 200px;  /* Altura fixa de 200px para as imagens */
+    opacity: 0.5;
+    height: 200px;
 }
 
-/* Estilo ao passar o mouse sobre as imagens */
 .categoria-videos img:hover {
-  opacity: 1.0;          /* Torna a imagem totalmente opaca */
-  border: 3px solid green; /*Adiciona uma borda verde de 3px*/
+    opacity: 1.0;
+    border: 3px solid green;
 }
 
-/* Estilo para o título da categoria */
 .categoria h2 {
-  color: rgb(42, 122, 228); /*Define a cor do título (azul)*/
+    color: rgb(33, 81, 212)
 }
-
